@@ -1,0 +1,57 @@
+<?php
+
+$l['googleseo_plugin_404'] = "404";
+$l['googleseo_plugin_apply_error'] = "Couldn't apply changes to inc/functions.php. Is the file writable?";
+$l['googleseo_plugin_apply_success'] = "Changes to inc/functions.php applied successfully.";
+$l['googleseo_plugin_configure'] = "(<a href=\"{1}\" target=\"_blank\">Configure</a>)";
+$l['googleseo_plugin_db_error'] = "The Google SEO URL database contains {1} entries, {2} of which are no longer required and may be deleted.";
+$l['googleseo_plugin_db_optimize'] = "<a href=\"{1}\">Click here to optimize the Google SEO URL database.</a>";
+$l['googleseo_plugin_db_success'] = "The Google SEO URL database contains {1} entries and is fully optimized.";
+$l['googleseo_plugin_description'] = "Google Search Engine Optimization as described in the official <a href=\"http://www.google.com/webmasters/docs/search-engine-optimization-starter-guide.pdf\">Google's SEO starter guide</a>. Please see the <a href=\"../inc/plugins/google_seo.html\">documentation</a> for details.";
+$l['googleseo_plugin_edit'] = "Click to {1} changes to core files.";
+$l['googleseo_plugin_edit_apply'] = "Apply";
+$l['googleseo_plugin_edit_revert'] = "Revert";
+$l['googleseo_plugin_error'] = "{1} is disabled.";
+$l['googleseo_plugin_error_plural'] = "{1} are disabled.";
+$l['googleseo_plugin_htaccess_404'] = "Google SEO 404";
+$l['googleseo_plugin_htaccess_announcements'] = "Google SEO URL Announcements";
+$l['googleseo_plugin_htaccess_calendars'] = "Google SEO URL Calendars";
+$l['googleseo_plugin_htaccess_conflict'] = "URL scheme conflict between '{1}' and '{2}'.";
+$l['googleseo_plugin_htaccess_events'] = "Google SEO URL Events";
+$l['googleseo_plugin_htaccess_forums'] = 'Google SEO URL Forums';
+$l['googleseo_plugin_htaccess_rewritebase'] = "Some hosts require RewriteBase to make RewriteRules work.";
+$l['googleseo_plugin_htaccess_search'] = "Google SEO workaround for search.php highlights:";
+$l['googleseo_plugin_htaccess_search_first'] = "Make this rule the first rewrite rule in your .htaccess!";
+$l['googleseo_plugin_htaccess_sitemap'] = "Google SEO Sitemap";
+$l['googleseo_plugin_htaccess_threads'] = "Google SEO URL Threads";
+$l['googleseo_plugin_htaccess_users'] = "Google SEO URL Users";
+$l['googleseo_plugin_list'] = "{1}, {2}";
+$l['googleseo_plugin_list_final'] = "{1} and {2}";
+$l['googleseo_plugin_meta'] = "Meta";
+$l['googleseo_plugin_mybb_old'] = "Your copy of MyBB is too old for this version of Google SEO. Please update MyBB!";
+$l['googleseo_plugin_no_plugins'] = "<b>All Plugins Disabled!</b> Google SEO won't work until you re-enable the plugin system.";
+$l['googleseo_plugin_pl_missing'] = 'Google SEO requires <a href="http://mods.mybb.com/view/pluginlibrary">PluginLibrary</a>. Please download and install it.';
+$l['googleseo_plugin_pl_old'] = 'Your <a href="http://mods.mybb.com/view/pluginlibrary">PluginLibrary</a> is too old. Please download and install the new version.';
+$l['googleseo_plugin_redirect'] = "Redirect";
+$l['googleseo_plugin_redirect_warn_bburl'] = "Board URL is set to '{1}', but you currently seem to be on '{2}'. A wrong Board URL setting may cause problems with Redirect.";
+$l['googleseo_plugin_redirect_warn_url'] = "Redirect enabled, but URL disabled. This is fine for redirecting stock MyBB URLs (showthread.php?tid=x) to MyBB search engine friendly URLs (thread-x.html) or vice versa. If you want to redirect stock MyBB URLs to Google SEO URLs or vice versa, please enable URL as well.";
+$l['googleseo_plugin_revert_error'] = "Couldn't revert changes to inc/functions.php. Is the file writable?";
+$l['googleseo_plugin_revert_success'] = "Changes to inc/functions.php reverted successfully.";
+$l['googleseo_plugin_sitemap'] = "Sitemap";
+$l['googleseo_plugin_success'] = "{1} is enabled.";
+$l['googleseo_plugin_success_plural'] = "{1} are enabled.";
+$l['googleseo_plugin_uninstall'] = "Are you sure you want to uninstall Google SEO? This will remove your settings and SEO URL database. You won't be able to redirect SEO URLs anymore.";
+$l['googleseo_plugin_uninstall_confirm'] = "Click here to uninstall Google SEO.";
+$l['googleseo_plugin_url'] = "URL";
+$l['googleseo_plugin_url_warn_functions'] = "Modifications to inc/functions.php are required for URL support. Please see the <a href=\"../inc/plugins/google_seo.html\">documentation</a> for details.";
+$l['googleseo_plugin_url_warn_translate'] = "inc/plugins/google_seo/translate.php is required for URL translation. Please see the <a href=\"../inc/plugins/google_seo.html\">documentation</a> for details.";
+$l['googleseo_plugin_warn_encoding'] = "Your database encoding is '{1}', should be 'utf8'. Please update your MyBB to use UTF-8 everywhere.";
+$l['googleseo_plugin_warn_errordocument'] = "Please enable 404 or remove or comment the google_seo_error=404 directive from .htaccess.";
+$l['googleseo_plugin_warn_htaccess'] = "Add to .htaccess:";
+$l['googleseo_plugin_warn_mbstring'] = "Your host does not seem to support mbstring. This may cause problems with UTF-8.";
+$l['googleseo_plugin_warn_setting'] = "The Google SEO setting group appears to be missing. Deactivate and Activate the plugin.";
+$l['googleseo_plugin_warn_url_apply'] = "URL is passive. Apply changes to core files to activate.";
+$l['googleseo_plugin_warn_url_redirect'] = "Redirect is enabled and URL is passive. Redirecting SEO URLs back to MyBB's default URLs.";
+$l['googleseo_plugin_warn_url_revert'] = "Please enable URL or revert changes to core files.";
+
+?>
